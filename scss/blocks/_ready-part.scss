@@ -1,0 +1,79 @@
+.ready-part {
+    background-color: #F67E7E;
+    z-index: 1;
+    padding: 76px 260px;
+    background-image: url("../images/ready-bg.svg");
+    background-repeat: no-repeat;
+    background-position-y: 56px;
+}
+.ready {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ready__title {
+    margin: 0;
+    padding: 0;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    color: #012F34;
+}
+.ready__btn {
+    padding: 8px 33px;
+    text-decoration: none;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #012F34;
+    border: 2px solid #012F34;
+    box-sizing: border-box;
+    border-radius: 24px;
+    transition: 0.3s;
+
+    &:hover{
+        background: #012F34;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width:1266px){
+    .ready-part{
+        padding: 84px 98px;
+        background-position-y: 90px;
+    }
+    .ready__title{
+        text-align: center;
+        margin-bottom: 24px;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .ready-part{
+        padding: 83px 0;
+        background-position-y: 180px;
+    }
+    .ready{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:500px){
+    .ready-part{
+        background-position-y: 180px;
+    }
+    .ready__title{
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+}
+@media only screen and (max-width:242px){
+    .ready-part{
+        background-position-y: 213px;
+    }
+
+}
