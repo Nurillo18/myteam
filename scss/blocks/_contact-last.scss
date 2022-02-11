@@ -19,10 +19,12 @@
         position: absolute;
         background-image: url("../contact-images/from-bg.png");
         background-repeat: no-repeat;
+        background-position: bottom right;
         width: 200px;
         height: 225px;
-        bottom: -200px;
+        bottom: -126px;
         right: -187px;
+        z-index: -1;
     }
 }
 .ask__title {
@@ -198,9 +200,7 @@
         width: 100%;
         text-align: flex-start;
     }
-    .secound-input{
 
-    }
     .first-desc::before{
         position: relative;
         right: 23px;
