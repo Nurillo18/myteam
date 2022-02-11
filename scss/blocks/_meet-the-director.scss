@@ -158,11 +158,44 @@
     }
 }
 
-@media only screen and (max-width:936px){
+@media only screen and (max-width:937px){
+    .meet-the-directors{
+        padding: 88px 24px 116px;
+    }
     .third-item{
         margin-top: 52px;
     }
     .four-item{
         margin-top: 52px;
     }
+    .meet__list{
+        flex-direction: column;
+    }
+    .meet__title{
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+}
+@media only screen and (max-width:450px){
+    .container{
+        width: 95%;
+    }
+    .meet__item{
+        padding: 32px 24px 56px;
+        width: 100%;
+    }
+    .meet__list{
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width:343px){
+    .th-brake{
+        top: -26px;
+    }
+    .error-box{
+        top: -26px;
+    }
+
 }
