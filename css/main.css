@@ -1572,6 +1572,320 @@ img {
   }
 }
 
+.contact-us-about {
+  padding-top: 124px;
+  padding-bottom: 128px;
+  background-image: url("../images-about/meet-bg-1.png");
+  background-repeat: no-repeat;
+  background-position-y: 124px;
+  background-position-x: -65px;
+}
+
+.ask {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.ask::after {
+  content: '';
+  display: block;
+  position: absolute;
+  background-image: url("../contact-images/from-bg.png");
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 225px;
+  bottom: -200px;
+  right: -187px;
+}
+
+.ask__title {
+  margin: 0;
+  padding: 0;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 100px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.ask__sistem {
+  margin-top: 54px;
+}
+
+.ask__head {
+  margin: 0;
+  padding: 0;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  color: #F67E7E;
+}
+
+.ask__desc {
+  margin: 0;
+  padding: 0;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.ask__desc + .ask__desc {
+  margin-top: 52px;
+}
+
+.first-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.first-desc::before {
+  content: '';
+  display: block;
+  background-image: url("../contact-images/first-man.svg");
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  margin-right: 23px;
+}
+
+.secoun-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.secoun-desc::before {
+  content: '';
+  display: block;
+  background-image: url("../contact-images/secound-setting.svg");
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  margin-right: 23px;
+}
+
+.third-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.third-desc::before {
+  content: '';
+  display: block;
+  background-image: url("../contact-images/third-img.svg");
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  margin-right: 23px;
+}
+
+.ask__input {
+  border: none;
+  background: none;
+  display: block;
+  border-bottom: 2px solid #FFFFFF;
+  border-radius: 1px;
+  width: 540px;
+  outline: none;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #FFFFFF;
+  -webkit-transition: border 0.3s;
+  transition: border 0.3s;
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+
+.ask__input:hover {
+  border-bottom: 2px solid  #F67E7E;
+}
+
+.ask__input::-webkit-input-placeholder {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  padding-left: 10px;
+}
+
+.ask__input:-ms-input-placeholder {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  padding-left: 10px;
+}
+
+.ask__input::-ms-input-placeholder {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  padding-left: 10px;
+}
+
+.ask__input::placeholder {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  padding-left: 10px;
+}
+
+.ask__btn {
+  margin-top: 24px;
+  padding: 9px 32px;
+  border: none;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #004047;
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 24px;
+}
+
+@media only screen and (max-width: 850px) {
+  .contact-us-about {
+    padding-top: 122px;
+    background-position-x: -100px;
+  }
+  .ask {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .ask::after {
+    display: none;
+  }
+  .ask::after {
+    right: -17px;
+  }
+  .ask__title {
+    text-align: center;
+    font-size: 64px;
+    line-height: 56px;
+  }
+  .ask__head {
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .ask__sistem {
+    width: 100%;
+    text-align: center;
+  }
+  .ask__desc {
+    width: 100%;
+    text-align: flex-start;
+  }
+  .first-desc::before {
+    position: relative;
+    right: 23px;
+    margin: 0;
+  }
+  .secoun-desc::before {
+    position: relative;
+    right: 23px;
+    margin: 0;
+    width: 25%;
+  }
+  .third-desc {
+    position: relative;
+    right: 23px;
+    margin: 0;
+  }
+  .ask__form {
+    width: 100%;
+  }
+  .ask__input {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .contact-us-about {
+    padding: 80px 24px 64px;
+    background-image: none;
+  }
+  .ask__title {
+    text-align: center;
+    line-height: 40px;
+    font-size: 40px;
+  }
+  .ask__head {
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .ask__desc {
+    font-size: 18px;
+    line-height: 28px;
+    width: 100%;
+  }
+  .ask__desc::before {
+    width: 100%;
+  }
+}
+
 .site-footer {
   padding: 48px 0;
   background-color: #002529;
