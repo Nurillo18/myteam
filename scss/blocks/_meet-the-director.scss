@@ -1,0 +1,168 @@
+.meet-the-directors{
+    position: relative;
+    padding-top: 140px;
+    padding-bottom: 168px;
+    background-color: #004047;
+    background-image: url("../images-about/meet-bg-1.png");
+    background-repeat: no-repeat;
+    background-position-x: -100px;
+
+    &::after{
+        content: '';
+        display: block;
+        position: absolute;
+        background-image: url("../images-about/meet-bg-2.png");
+        background-repeat: no-repeat;
+        width: 147px;
+        height: 100px;
+        right: 0;
+        bottom: 0;
+    }
+}
+.meet{
+    position: relative;
+
+
+
+}
+.meet__title {
+    margin: 0;
+    padding: 0;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 64px;
+}
+.meet__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.meet__item {
+    padding: 32px 48px ;
+    position: relative;
+    width: 350px;
+    height: 253px;
+    background-color:#012F34;
+}
+.meet__img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+.meet__name {
+    display: block;
+    text-align: center;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+}
+.meet__cicle{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    background: #F67E7E;
+    transition: background-color 0.3s;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #79C8C7;
+    }
+}
+.meet__plas-img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.meet__desc {
+    margin: 0;
+    padding: 0;
+    font-family: "Livvic";
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+}
+
+.meet__socil-list{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meet__soc-link{
+    text-decoration: none;
+    margin-bottom: 35px;
+
+    & + & {
+        margin-left: 16px;
+    }
+}
+.meet__soc-img{
+    fill:#fff;
+    transition: fill 0.3s;
+
+    &:hover{
+        fill:#F67E7E;
+    }
+
+}
+
+.error-box{
+    background-color:#79C8C7;
+    transition: background-color 0.3s;
+
+    &:hover{
+        background-color:#F67E7E ;
+    }
+}
+.secound-item{
+    margin-top: 76px;
+}
+@media only screen and (max-width:1090px){
+
+    .meet-the-directors{
+        padding: 100px 98px 128px;
+    }
+    .secound-item{
+        margin-top: 0;
+    }
+    .meet__title{
+        margin-bottom: 48px;
+    }
+    .four-item{
+        margin-top: 76px;
+    }
+}
+
+@media only screen and (max-width:936px){
+    .third-item{
+        margin-top: 52px;
+    }
+    .four-item{
+        margin-top: 52px;
+    }
+}
